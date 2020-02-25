@@ -1,1 +1,3 @@
-// document.getElementById("header").append("<p>teste</p>");
+// $(document).ready(function(){
+// 	$('.collapsible').collapsible();
+// });
