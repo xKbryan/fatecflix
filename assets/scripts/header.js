@@ -12,9 +12,10 @@ document.getElementById("header").innerHTML =
 <nav>
   <div class="nav-wrapper deep-orange accent-3">
     <ul>
-      <li class="flow-text"><a href="filmes.html">Filmes <span class="new badge black" data-badge-caption="Novos">2</span></a></li>
-      <li class="flow-text"><a href="series.html">Séries <span class="new badge black" data-badge-caption="Novos">4</span></a></li>
-      <li class="flow-text"><a href="sobre.html">Sobre nós</a></li>
+      <li><a href="index.html"><i class="material-icons">home</i></a></li>
+      <li><a href="filmes.html"><i class="material-icons">local_movies</i></a></li>
+      <li><a href="series.html" disabled="true"><i class="material-icons">live_tv</i></a></li>
+      <li><a href="sobre.html"><i class="material-icons">info</i></a></li>
     </ul>
   </div>
 </nav>
