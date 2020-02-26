@@ -2,6 +2,7 @@ document.getElementById("head").innerHTML =
 `
 <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
 <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+<link href="assets/fontawesome/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="assets/scripts/header.js"></script>
