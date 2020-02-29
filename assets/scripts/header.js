@@ -22,15 +22,6 @@ document.getElementById("header").innerHTML =
   </div>
 </nav>
 <div class="fixed-action-btn">
-  <a class="btn-floating btn-large deep-orange accent-3">
-    <i class="large material-icons">menu</i>
-  </a>
-  <ul>
-    <li><a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Sobre Nós" href="sobre.html"><i class="material-icons">info</i></a></li>
-    <li><a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Séries" href="series.html"><i class="material-icons">live_tv</i></a></li>
-    <li><a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Filmes" href="filmes.html"><i class="material-icons">local_movies</i></a></li>
-    <li><a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Menu de Destaques" href="index.html"><i class="material-icons">home</i></a></li>
-    <li><a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Ir ao topo" href="#header"><i class="material-icons">arrow_drop_up</i></a></li>
-  </ul>
+  <a class="btn-floating tooltipped grey darken-3 waves-effect" data-position="left" data-tooltip="Ir ao topo" href="#header"><i class="material-icons">arrow_drop_up</i></a>
 </div>
 `

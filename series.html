@@ -15,7 +15,7 @@
 		<h1 class="white-text">Séries</h1>
 		<ul class="collapsible">
 			<li>
-				<div class="collapsible-header">Lista de séries</div>	
+				<div class="collapsible-header blue-grey lighten-4">Lista de séries</div>	
 				<div class="collapsible-body">
 					<ul class="section table-of-contents">
 						<li><a href="#blackm">Black Mirror</a></li>
@@ -26,9 +26,18 @@
 				</div>
 			</li>
 		</ul>
+		<div id="modal" class="modal">
+			<div class="modal-content">
+				<div id="trailer" class="video-container">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" onclick="fechaTrailer()" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+			</div>
+		</div>
 		<div id="blackm" class="card-panel white">
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir"><i class="black-text material-icons">play_arrow</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/jDiYGjp5iFg')" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
+			<a class="tooltipped waves-effect" data-position="left" href="https://www.netflix.com/title/70264888" data-tooltip="Assistir" target="_blank"><i class="black-text material-icons">play_arrow</i></a>
 			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a>
 			<p class="white-text card-panel deep-orange accent-3 flow-text">Black Mirror</p>
 			<img class="responsive-img center-align" src="assets/images/s-blackm2.jpg" alt="">
@@ -37,8 +46,8 @@
 			</div>
 		</div>
 		<div id="lovedeath" class="card-panel white">
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir"><i class="black-text material-icons">play_arrow</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/wUFwunMKa4E')" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
+			<a class="tooltipped waves-effect" data-position="left" href="https://www.netflix.com/br/title/80174608" data-tooltip="Assistir" target="_blank"><i class="black-text material-icons">play_arrow</i></a>
 			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a>
 			<p class="white-text card-panel deep-orange accent-3 flow-text">Love, Death & Robots</p>
 			<img class="responsive-img center-align" src="assets/images/s-lovedeath.jpg" alt="">
@@ -47,8 +56,8 @@
 			</div>
 		</div>
 		<div id="twilightz" class="card-panel white">
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir"><i class="black-text material-icons">play_arrow</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/5ymjp2uIBws')" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
+			<!-- <a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir" target="_blank"><i class="black-text material-icons">play_arrow</i></a> -->
 			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a>
 			<p class="white-text card-panel deep-orange accent-3 flow-text">The Twilight Zone</p>
 			<img class="responsive-img center-align" src="assets/images/s-twilightz.jpg" alt="">
@@ -57,8 +66,9 @@
 			</div>
 		</div>
 		<div id="evangelion" class="card-panel white">
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir"><i class="black-text material-icons">play_arrow</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/13nSISwxrY4')" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/Y4P5BslcvT4')" data-tooltip="AMV"><i class="black-text material-icons">star</i></a>
+			<a class="tooltipped waves-effect" data-position="left" href="https://www.netflix.com/title/81033445" data-tooltip="Assistir" target="_blank"><i class="black-text material-icons">play_arrow</i></a>
 			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a>
 			<p class="white-text card-panel deep-orange accent-3 flow-text">Neon Genesis Evangelion</p>
 			<img class="responsive-img center-align" src="assets/images/s-evangelion.jpg" alt="">
