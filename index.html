@@ -13,10 +13,19 @@
 	<div id="header"></div>
 	<div class="container">
 		<h1 class="white-text">Destaque</h1>
+		<div id="modal" class="modal">
+			<div class="modal-content">
+				<div id="trailer" class="video-container">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" onclick="fechaTrailer()" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+			</div>
+		</div>
 		<div class="card-panel white">
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Assistir"><i class="black-text material-icons">play_arrow</i></a>
-			<a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a>
+			<a class="tooltipped waves-effect modal-trigger" data-position="left" href="#modal" onclick="abreTrailer('https://www.youtube.com/embed/jo18VIoR2xU')" data-tooltip="Trailer"><i class="black-text material-icons">live_tv</i></a>
+			<!-- <a class="tooltipped waves-effect" data-position="left" href="https://www.netflix.com/title/70264888" data-tooltip="Assistir" target="_blank"><i class="black-text material-icons">play_arrow</i></a> -->
+			<!-- <a class="tooltipped waves-effect" data-position="left" href="#" data-tooltip="Compartilhar"><i class="black-text material-icons">share</i></a> -->
 			<p class="white-text card-panel deep-orange accent-3 flow-text">π - Pi</p>
 			<img class="responsive-img" src="assets/images/f-pi.jpg" alt="">
 			<div class="card-panel deep-orange white-text">
