@@ -6,6 +6,14 @@ $(document).ready(function(){
 	$('.collapsible').collapsible()
 });
 
+// $('.nav a[href^="#"]').on('click', function(e) {
+// 	e.preventDefault();
+// 	var id = $(this).attr('href'), targetOffset = $(id).offset().top;		
+// 	$('html, body').animate({ 
+// 		scrollTop: targetOffset - 100
+// 	}, 500);
+// });
+
 function abreTrailer(url) {
 	$('.modal').modal({
 		dismissible: true, // Modal can be dismissed by clicking outside of the modal
